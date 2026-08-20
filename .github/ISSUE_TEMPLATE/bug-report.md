@@ -2,7 +2,7 @@
 name: Bug report
 about: Reportar un error o comportamiento inesperado
 title: "[BUG] "
-labels: bug
+labels: "bug, type:engineering"
 ---
 
 ## Descripción
