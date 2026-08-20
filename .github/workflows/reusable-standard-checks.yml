@@ -1,0 +1,46 @@
+name: Reusable — Standard Checks
+
+# Workflow reutilizable de ejemplo. NO se ejecuta solo: solo corre cuando otro
+# repo lo invoca explicitamente con `workflow_call`. Sirve de plantilla para
+# los repos de producto (products, software-factory) al definir su propio CI.
+#
+# Ejemplo de uso desde otro repo:
+#
+#   jobs:
+#     checks:
+#       uses: Dev-Lab-Technologies/.github/.github/workflows/reusable-standard-checks.yml@main
+#       with:
+#         node-version: "20"
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        description: "Version de Node.js a usar"
+        type: string
+        default: "20"
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint --if-present
+
+      - name: Test
+        run: npm test --if-present
