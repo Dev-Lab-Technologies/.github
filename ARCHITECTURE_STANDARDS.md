@@ -12,11 +12,16 @@ mismo estándar).
 Cada producto separa responsabilidades en repos independientes en vez de un
 monorepo:
 
-- **Código de aplicación** (frontend / backend) — repos `*-frontend`, `*-backend`.
-- **Documentación** — `devlab-documentation` (o `docs/` dentro del propio repo para docs técnicas específicas).
-- **Infraestructura** (IaC, Cloudflare, configuración de despliegue) — `devlab-infrastructure`.
+- **Código de aplicación** — vive en `products` (propio) o `software-factory`
+  (cliente) mientras el producto es pequeño; se separa a un repo dedicado
+  (ej. futuro `besto-frontend`/`besto-backend`) cuando crece lo suficiente,
+  siguiendo este mismo estándar.
+- **Documentación** — repo `documentation` (`docs/products/`,
+  `docs/engineering/`, `docs/architecture/`, etc.), o `docs/` dentro del
+  propio repo para documentación técnica específica de ese producto.
+- **Infraestructura** (IaC, Cloudflare, configuración de despliegue) — repo `infrastructure`.
 - **Testing** — vive junto al código que prueba (`tests/` o `__tests__/` en cada repo), no en un repo aparte.
-- **Deploy** — definido en `.github/workflows/` de cada repo; el repo `devlab-infrastructure` guarda la configuración de los entornos.
+- **Deploy** — definido en `.github/workflows/` de cada repo; el repo `infrastructure` guarda la configuración de los entornos.
 
 ## Estructura mínima esperada por repo
 
