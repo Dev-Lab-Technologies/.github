@@ -1,19 +1,21 @@
-# Workflows compartidos (reservado)
+# Workflows compartidos
 
-Esta carpeta queda reservada para **reusable workflows** de organización
-(`workflow_call`) que otros repos de `Dev-Lab-Technologies` puedan invocar
-(ej. un job estándar de lint+test, o un template de deploy).
+Esta carpeta guarda **reusable workflows** de organización (`workflow_call`)
+que los repos de `Dev-Lab-Technologies` pueden invocar en vez de duplicar su
+propio CI.
 
-No se agrega ningún workflow activo todavía a propósito: un workflow en este
-repositorio se ejecutaría igual que en cualquier otro, y no hay código de
-producto aquí que compilar o testear. Cuando exista un caso de uso concreto
-(ej. un workflow común para todos los repos `devlab-*`), se propondrá vía PR
-siguiendo el estándar de permisos mínimos:
+- `reusable-standard-checks.yml` — lint + test estándar (Node.js), pensado
+  como punto de partida para `products` y `software-factory`.
+
+Ninguno de estos workflows se dispara solo: solo corren cuando otro repo los
+invoca explícitamente con `uses: Dev-Lab-Technologies/.github/.github/workflows/<archivo>@main`,
+así que agregarlos aquí no ejecuta nada en este repo.
+
+Todo workflow, reutilizable o no, declara permisos mínimos por defecto:
 
 ```yaml
 permissions:
   contents: read
 ```
 
-y aumentando permisos solo cuando sea estrictamente necesario (ver
-`ARCHITECTURE_STANDARDS.md`).
+y amplía solo cuando sea estrictamente necesario (ver `ARCHITECTURE_STANDARDS.md`).

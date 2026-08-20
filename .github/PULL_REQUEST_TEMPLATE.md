@@ -1,22 +1,25 @@
-## Descripción del cambio
+## Descripción
 
 <!-- ¿Qué hace este PR? -->
 
-## Motivo del cambio
+## Área afectada
 
-<!-- ¿Por qué es necesario? Issue relacionado: Closes #___ -->
+<!-- Marca todas las que apliquen -->
+- [ ] `product-management`
+- [ ] `software-factory`
+- [ ] `products`
+- [ ] `infrastructure`
+- [ ] `innovation-lab`
+- [ ] `documentation`
+- [ ] Gobierno / `.github`
 
-## Archivos modificados
+## Testing
 
-<!-- Resumen de los archivos/módulos principales tocados -->
+<!-- Cómo se probó: unit tests, manual, staging, etc. -->
 
-## Pruebas realizadas
+## Riesgos
 
-<!-- Cómo se probó el cambio (unit tests, manual, staging, etc.) -->
-
-## Capturas (si aplica)
-
-<!-- Screenshots o grabaciones de UI -->
+<!-- ¿Qué podría romperse? ¿Requiere rollback plan o feature flag? -->
 
 ## Checklist
 

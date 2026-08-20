@@ -19,6 +19,10 @@
 /SECURITY.md            @Dev-Lab-Technologies/security
 /.github/CODEOWNERS     @Dev-Lab-Technologies/owners @Dev-Lab-Technologies/security
 
+# Estandares y pipeline de ingenieria los revisa Owners + DevOps.
+/ARCHITECTURE_STANDARDS.md         @Dev-Lab-Technologies/owners @Dev-Lab-Technologies/devops
+/DEV_LAB_ENGINEERING_WORKFLOW.md   @Dev-Lab-Technologies/owners @Dev-Lab-Technologies/devops
+
 # Documentacion la revisa Product.
 /docs/                  @Dev-Lab-Technologies/product
 *.md                    @Dev-Lab-Technologies/product
