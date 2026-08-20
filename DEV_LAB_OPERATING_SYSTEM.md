@@ -1,5 +1,12 @@
 # Dev Lab Operating System
 
+> **Dev Lab Technologies is a technology company building software, platforms
+> and technological ventures.** No es una SaaS company: SaaS es, cuando
+> aplica, la forma de entrega de *algunos* productos — no la identidad de la
+> compañía. Esta identidad aplica a todo el contenido de este documento y de
+> los repos que gobierna; cualquier texto que la contradiga (ej. lenguaje
+> "SaaS company") es un error a corregir, no una variación válida.
+
 El documento maestro de cómo opera Dev Lab Technologies dentro de GitHub:
 los 10 pilares, qué documento gobierna cada uno, y su estado real hoy —no
 aspiracional—. Cada pilar aquí es un resumen con enlace a su fuente
@@ -124,12 +131,15 @@ creado. Un spike que valida se gradúa a producto vía la plantilla **Nuevo
 producto** y entra a `Software Factory` como cualquier otro producto.
 
 ### 10. Portfolio Management
-Registro de productos propios, proyectos de cliente, plataformas internas e
-investigación, mapeado a los repos existentes. Tabla de registro vacía
-todavía (sin entradas reales que inventar). Detalle: `PRODUCT_PORTFOLIO.md`.
+Registro de productos propios, proyectos de cliente, plataformas internas,
+investigación y **ventures** (categoría agregada para iniciativas de alto
+riesgo/alto potencial más allá de un producto tradicional), mapeado a los
+repos existentes. **BESTO** es la primera entrada real del portafolio,
+categorizada como Producto propio. Detalle: `PRODUCT_PORTFOLIO.md`.
 La fuente viva a futuro es el tablero **DLT OS Product Lifecycle**
 (GitHub Projects) — pendiente de crear, bloqueado por el scope `project`
-del token.
+del token; cuando se cree, su campo "Tipo" debe incluir `Venture` como
+cuarta opción, además de Producto / Proyecto Cliente / Investigación.
 
 ## Qué falta para que el Operating System esté completo
 

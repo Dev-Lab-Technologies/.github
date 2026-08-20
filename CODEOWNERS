@@ -4,9 +4,10 @@
 # archivo con su propio mapeo cuando exista codigo real que revisar.
 #
 # Adaptacion: el ejemplo original del CTO asumia un monorepo con carpetas
-# /frontend y /backend. Aqui los productos son repos separados
-# (devlab-besto-frontend, devlab-besto-backend, etc.), por lo que el mapeo
-# se hace por repo completo en vez de por carpeta.
+# /frontend y /backend. Aqui los productos viven en repos base por funcion
+# (products, software-factory, infrastructure, etc.) o en su propio repo
+# dedicado si crecen lo suficiente (ej. un futuro repo propio de BESTO),
+# por lo que el mapeo se hace por repo completo en vez de por carpeta.
 
 # Por defecto, Engineering revisa todo el codigo de producto.
 *                       @Dev-Lab-Technologies/engineering

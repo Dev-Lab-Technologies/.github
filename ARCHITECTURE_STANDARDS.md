@@ -1,9 +1,11 @@
 # Estándar de repositorios — Dev Lab Technologies
 
-Aplica a todo repositorio nuevo que se cree bajo `Dev-Lab-Technologies`
-(propuesto para: `devlab-besto`, `devlab-besto-frontend`,
-`devlab-besto-backend`, `devlab-infrastructure`, `devlab-documentation`,
-`devlab-web`, `devlab-tools` — ver reporte CTO para el detalle de cada uno).
+Aplica a todo repositorio nuevo que se cree bajo `Dev-Lab-Technologies`: los
+6 repos base (`product-management`, `software-factory`, `products`,
+`infrastructure`, `innovation-lab`, `documentation`) y cualquier repo
+dedicado que un producto específico llegue a necesitar (ej. si **BESTO**
+crece lo suficiente para salir de `products` a su propio repo, sigue este
+mismo estándar).
 
 ## Separación por repositorio
 
