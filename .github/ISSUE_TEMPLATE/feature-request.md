@@ -1,8 +1,8 @@
 ---
-name: Nueva feature
+name: Feature Request
 about: Proponer una nueva funcionalidad o mejora sobre un producto existente
 title: "[FEATURE] "
-labels: enhancement
+labels: "enhancement, type:product"
 ---
 
 ## Problema

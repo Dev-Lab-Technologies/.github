@@ -1,10 +1,13 @@
-## Descripción
+## Objetivo del cambio
 
-<!-- ¿Qué hace este PR? -->
+<!-- ¿Qué hace este PR, en una o dos frases? -->
+
+## Contexto
+
+<!-- ¿Por qué es necesario? Issue relacionado: Closes #___ -->
 
 ## Área afectada
 
-<!-- Marca todas las que apliquen -->
 - [ ] `product-management`
 - [ ] `software-factory`
 - [ ] `products`
@@ -13,17 +16,30 @@
 - [ ] `documentation`
 - [ ] Gobierno / `.github`
 
-## Testing
+## Impacto técnico
 
-<!-- Cómo se probó: unit tests, manual, staging, etc. -->
+<!-- Qué componentes toca, si cambia contratos/APIs, dependencias nuevas,
+     migraciones de datos, o si es puramente aditivo -->
 
-## Riesgos
+## Pruebas realizadas
 
-<!-- ¿Qué podría romperse? ¿Requiere rollback plan o feature flag? -->
+<!-- Cómo se validó: unit tests, manual, staging, etc. -->
 
-## Checklist
+## Checklist de seguridad
 
-- [ ] Código revisado.
-- [ ] Tests ejecutados.
-- [ ] No contiene secretos.
-- [ ] Documentación actualizada.
+- [ ] No contiene secretos, tokens ni credenciales.
+- [ ] No introduce dependencias nuevas sin revisar, o están justificadas.
+- [ ] Si toca autenticación, permisos o datos sensibles, fue revisado por `Security`.
+
+## Checklist de documentación
+
+- [ ] README del repo/producto actualizado si el comportamiento cambió.
+- [ ] Si esto es una decisión técnica no trivial, tiene su
+      `technical-decision.md` (o ADR en `docs/architecture/adr/`).
+- [ ] Si afecta el ciclo de vida o el portafolio, `PRODUCT_PORTFOLIO.md`
+      está al día.
+
+## Checklist general
+
+- [ ] Código revisado por alguien que no sea el autor.
+- [ ] Checks de CI en verde (o el fallo está explicado).
