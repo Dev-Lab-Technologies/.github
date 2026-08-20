@@ -77,7 +77,6 @@ Nada más en este documento depende de terceros — el resto de los controles
 - [ ] Una vez ambos activos, marcar "Revisión de PR obligatoria" como ✅ técnico, no solo de proceso, en la matriz de arriba.
 
 ---
-*Propuesta — pendiente de aprobación. No modifica código de producto; los
-controles ✅ ya descritos aquí fueron aplicados directamente (son
-configuración, no código) y verificados contra la API antes de escribir
-este documento.*
+*Activo en `main`. No modifica código de producto; los controles ✅ ya
+descritos aquí fueron aplicados directamente (son configuración, no código)
+y verificados contra la API antes de escribir este documento.*
