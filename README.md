@@ -4,10 +4,13 @@ Repositorio especial de configuración a nivel de **organización**. GitHub usa 
 contenido de este repositorio como valor por defecto para cualquier repo de
 `Dev-Lab-Technologies` que no tenga su propia versión del archivo.
 
+> **Empieza por [`DEV_LAB_OPERATING_SYSTEM.md`](./DEV_LAB_OPERATING_SYSTEM.md)** — el documento maestro que integra los 10 pilares (Governance, Product Management, Software Factory, Engineering Standards, Architecture, Security, Infrastructure, Operations, Innovation Lab, Portfolio Management) y su estado real.
+
 ## Contenido
 
 | Archivo | Propósito |
 |---|---|
+| [`DEV_LAB_OPERATING_SYSTEM.md`](./DEV_LAB_OPERATING_SYSTEM.md) | Documento maestro: integra y da estado a los 10 pilares del Operating System |
 | [`CODEOWNERS`](./CODEOWNERS) | Dueños por defecto de revisión de código |
 | [`SECURITY.md`](./SECURITY.md) | Política de reporte de vulnerabilidades |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) | Flujo de ramas, commits y Pull Requests |
