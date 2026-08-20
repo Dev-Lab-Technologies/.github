@@ -1,0 +1,24 @@
+# CODEOWNERS por defecto — Dev-Lab-Technologies
+# Se aplica a cualquier repo de la organizacion que no tenga su propio
+# archivo CODEOWNERS. Cada producto que se cree deberia sobreescribir este
+# archivo con su propio mapeo cuando exista codigo real que revisar.
+#
+# Adaptacion: el ejemplo original del CTO asumia un monorepo con carpetas
+# /frontend y /backend. Aqui los productos son repos separados
+# (devlab-besto-frontend, devlab-besto-backend, etc.), por lo que el mapeo
+# se hace por repo completo en vez de por carpeta.
+
+# Por defecto, Engineering revisa todo el codigo de producto.
+*                       @Dev-Lab-Technologies/engineering
+
+# Infraestructura y CI/CD los revisa DevOps.
+/.github/workflows/     @Dev-Lab-Technologies/devops
+/infrastructure/        @Dev-Lab-Technologies/devops
+
+# Seguridad revisa cambios en politicas y configuracion sensible.
+/SECURITY.md            @Dev-Lab-Technologies/security
+/.github/CODEOWNERS     @Dev-Lab-Technologies/owners @Dev-Lab-Technologies/security
+
+# Documentacion la revisa Product.
+/docs/                  @Dev-Lab-Technologies/product
+*.md                    @Dev-Lab-Technologies/product
