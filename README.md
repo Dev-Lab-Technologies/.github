@@ -13,6 +13,7 @@ contenido de este repositorio como valor por defecto para cualquier repo de
 | [`DEV_LAB_OPERATING_SYSTEM.md`](./DEV_LAB_OPERATING_SYSTEM.md) | Documento maestro: integra y da estado a los 10 pilares del Operating System |
 | [`CODEOWNERS`](./CODEOWNERS) | Dueños por defecto de revisión de código |
 | [`SECURITY.md`](./SECURITY.md) | Política de reporte de vulnerabilidades |
+| [`SECURITY_CONTROLS.md`](./SECURITY_CONTROLS.md) | Matriz de controles activos/bloqueados, verificada contra la API — cumplimiento y respuesta a incidentes |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) | Flujo de ramas, commits y Pull Requests |
 | [`ARCHITECTURE_STANDARDS.md`](./ARCHITECTURE_STANDARDS.md) | Estándar de estructura para nuevos repositorios de producto |
 | [`DEV_LAB_ENGINEERING_WORKFLOW.md`](./DEV_LAB_ENGINEERING_WORKFLOW.md) | Pipeline Idea → Producción y qué repo/equipo es dueño de cada etapa |

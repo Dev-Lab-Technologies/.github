@@ -21,7 +21,7 @@ canónica; este archivo no duplica el contenido, lo **integra**.
 | 3 | Software Factory | `docs/engineering/SOFTWARE_FACTORY.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🟡 Propuesto (PR) |
 | 4 | Engineering Standards | [`ARCHITECTURE_STANDARDS.md`](./ARCHITECTURE_STANDARDS.md), [`CONTRIBUTING.md`](./CONTRIBUTING.md) | 🟡 Propuesto (PR) |
 | 5 | Architecture | `docs/architecture/` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🔴 Reservado, sin contenido |
-| 6 | Security | [`SECURITY.md`](./SECURITY.md) | 🟡 Propuesto (PR) + ver estado real de controles abajo |
+| 6 | Security | [`SECURITY.md`](./SECURITY.md), [`SECURITY_CONTROLS.md`](./SECURITY_CONTROLS.md) | ✅ Activo (Dependabot en los 8 repos) + 🔴 2 bloqueos raíz (2FA de cuenta, plan de GitHub) — ver detalle abajo |
 | 7 | Infrastructure | Repo [`infrastructure`](https://github.com/Dev-Lab-Technologies/infrastructure) | ✅ Repo creado, sin contenido aún |
 | 8 | Operations | `docs/operations/` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🔴 Reservado, sin contenido |
 | 9 | Innovation Lab | Repo [`innovation-lab`](https://github.com/Dev-Lab-Technologies/innovation-lab) | ✅ Repo creado, sin contenido aún |
@@ -106,11 +106,13 @@ sin ADRs todavía porque no hay productos en construcción aún. Detalle:
 
 ### 6. Security
 Política de reporte de vulnerabilidades y SLAs por severidad en
-[`SECURITY.md`](./SECURITY.md). **Estado real de los controles** (no solo
-la política escrita): Dependabot alerts/dependency graph/security updates
-activos; 2FA obligatorio y branch protection **bloqueados** hoy por
-limitaciones de plan/cuenta — ver reporte CTO para el detalle y las
-acciones pendientes de tu parte.
+[`SECURITY.md`](./SECURITY.md). **Matriz de controles real** (Fase 3) en
+[`SECURITY_CONTROLS.md`](./SECURITY_CONTROLS.md): Dependabot alerts +
+automated security fixes activos en los **8 repos** de la org (verificado
+individualmente, no solo el flag de org); 2FA obligatorio y branch
+protection **bloqueados** por dos causas raíz que requieren acción tuya
+directamente en GitHub (2FA en tu cuenta personal; decisión de upgrade de
+plan) — ninguna resoluble por API.
 
 ### 7. Infrastructure
 Cloud, CI/CD, Cloudflare, seguridad de infraestructura. Repo
