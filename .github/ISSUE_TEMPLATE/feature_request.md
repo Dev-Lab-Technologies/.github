@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Proponer una nueva funcionalidad o mejora
+name: Nueva feature
+about: Proponer una nueva funcionalidad o mejora sobre un producto existente
 title: "[FEATURE] "
 labels: enhancement
 ---
