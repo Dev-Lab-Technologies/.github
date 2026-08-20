@@ -17,20 +17,24 @@ canónica; este archivo no duplica el contenido, lo **integra**.
 | # | Pilar | Fuente canónica | Estado |
 |---|---|---|---|
 | 1 | Governance | [`README.md`](./README.md) (este repo) — equipos y permisos | ✅ Activo |
-| 2 | Product Management | `docs/strategy/PRODUCT_OPERATING_MODEL.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🟡 Propuesto (PR) |
-| 3 | Software Factory | `docs/engineering/SOFTWARE_FACTORY.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🟡 Propuesto (PR) |
-| 4 | Engineering Standards | [`ARCHITECTURE_STANDARDS.md`](./ARCHITECTURE_STANDARDS.md), [`CONTRIBUTING.md`](./CONTRIBUTING.md) | 🟡 Propuesto (PR) |
-| 5 | Architecture | `docs/architecture/` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🔴 Reservado, sin contenido |
+| 2 | Product Management | `docs/strategy/PRODUCT_OPERATING_MODEL.md`, `docs/strategy/PRODUCT_CRITERIA.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | ✅ Activo en `main` |
+| 3 | Software Factory | `docs/engineering/SOFTWARE_FACTORY.md`, `docs/ENGINEERING_WORKFLOW.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | ✅ Activo en `main` |
+| 4 | Engineering Standards | [`ARCHITECTURE_STANDARDS.md`](./ARCHITECTURE_STANDARDS.md), [`CONTRIBUTING.md`](./CONTRIBUTING.md) | ✅ Activo en `main` |
+| 5 | Architecture | `docs/architecture/PORTFOLIO_ARCHITECTURE.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🟡 Modelo de portafolio activo; ADRs por producto siguen reservados, sin contenido |
 | 6 | Security | [`SECURITY.md`](./SECURITY.md), [`SECURITY_CONTROLS.md`](./SECURITY_CONTROLS.md) | ✅ Activo (Dependabot en los 8 repos) + 🔴 2 bloqueos raíz (2FA de cuenta, plan de GitHub) — ver detalle abajo |
 | 7 | Infrastructure | Repo [`infrastructure`](https://github.com/Dev-Lab-Technologies/infrastructure) | ✅ Repo creado, sin contenido aún |
 | 8 | Operations | `docs/operations/` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🔴 Reservado, sin contenido |
 | 9 | Innovation Lab | Repo [`innovation-lab`](https://github.com/Dev-Lab-Technologies/innovation-lab) | ✅ Repo creado, sin contenido aún |
-| 10 | Portfolio Management | `docs/products/PRODUCT_PORTFOLIO.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | 🟡 Propuesto (PR) |
+| 10 | Portfolio Management | `docs/products/PRODUCT_PORTFOLIO.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | ✅ Activo en `main` — BESTO registrado |
 
-`✅ Activo` = ya existe y no depende de ningún PR pendiente. `🟡 Propuesto` =
-escrito, esperando revisión/merge de un Pull Request. `🔴 Reservado` = la
-carpeta existe, el contenido todavía no se ha escrito (no se inventó para
-llenar este documento).
+`✅ Activo` = fusionado en `main`, no depende de ningún PR abierto. `🟡` =
+parcialmente activo (una parte en `main`, otra parte real todavía sin
+escribir). `🔴 Reservado` = la carpeta existe, el contenido todavía no se ha
+escrito (no se inventó para llenar este documento). Última sincronización:
+Fase 5 — antes de esta fase, 5 de estas 10 filas llevaban desde Fase 1/3/4
+diciendo "Propuesto (PR)" o "Reservado" pese a que sus PR ya estaban
+fusionados (o, en el caso de Security, se fusionó recién en esta misma
+fase — ver §"Qué falta").
 
 ## Cómo se conectan los pilares
 
@@ -87,11 +91,14 @@ Management** es la vista de conjunto de todo lo anterior.
 ### 2. Product Management
 Cómo nace un producto, roles (Product Owner, Tech Lead, DevOps Lead,
 Security Reviewer, Owner/CTO), RACI por etapa, 9 estados del ciclo de vida.
-Detalle: `PRODUCT_OPERATING_MODEL.md`.
+Detalle: `PRODUCT_OPERATING_MODEL.md`. Criterios objetivos de entrada al
+portafolio (cuándo aprobar algo nuevo): `PRODUCT_CRITERIA.md`.
 
 ### 3. Software Factory
 Las 8 estaciones: Discovery → Diseño → Arquitectura → Desarrollo → QA →
-DevOps → Lanzamiento → Escalamiento. Detalle: `SOFTWARE_FACTORY.md`.
+DevOps → Lanzamiento → Escalamiento. Detalle: `SOFTWARE_FACTORY.md`. Flujo
+diario de ejecución (Issue → Branch → PR → Review → Merge, convención de
+ramas, roles): `ENGINEERING_WORKFLOW.md`.
 
 ### 4. Engineering Standards
 Estructura mínima de repo, ramas (`main`/`develop`/`feature`/`fix`/`hotfix`),
@@ -100,9 +107,10 @@ Detalle: [`ARCHITECTURE_STANDARDS.md`](./ARCHITECTURE_STANDARDS.md),
 [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 ### 5. Architecture
-ADRs, diagramas de sistema, modelos de datos por producto. Carpeta creada,
-sin ADRs todavía porque no hay productos en construcción aún. Detalle:
-`docs/architecture/`.
+Modelo de portafolio, clasificación productos/plataformas/ventures, y
+relación entre Dev Lab Technologies S.A.S. y sus productos (ej. BESTO):
+`PORTFOLIO_ARCHITECTURE.md`. ADRs y diagramas *por producto* siguen
+reservados, sin contenido — no hay productos en construcción aún.
 
 ### 6. Security
 Política de reporte de vulnerabilidades y SLAs por severidad en
@@ -145,11 +153,27 @@ cuarta opción, además de Producto / Proyecto Cliente / Investigación.
 
 ## Qué falta para que el Operating System esté completo
 
-- Fusionar los Pull Requests abiertos en [`.github`](https://github.com/Dev-Lab-Technologies/.github/pulls) y [`documentation`](https://github.com/Dev-Lab-Technologies/documentation/pulls) (nada de esto está activo hasta el merge).
-- Crear el tablero **DLT OS Product Lifecycle** (requiere `gh auth refresh -s project`).
-- Resolver los riesgos de seguridad pendientes (2FA, branch protection) — ver reporte CTO.
-- Registrar la primera entrada real en `PRODUCT_PORTFOLIO.md` cuando exista un producto/proyecto real.
+Actualizado en Fase 5 — lo ya resuelto (fusión de PRs de Fase 1–4, alta de
+BESTO) se retiró de esta lista; solo quedan los pendientes reales de hoy:
+
+- **GitHub Project "DLT OS Product Lifecycle" + sus 7 campos personalizados
+  + labels organizacionales** — bloqueados por el scope `project` del
+  token (`gh auth refresh -s project`); los labels esperan expresamente a
+  esto por instrucción explícita, no por límite técnico propio.
+- **2FA obligatorio a nivel de organización** — bloqueado porque la cuenta
+  Owner no tiene 2FA activo; requiere acción tuya en
+  `github.com/settings/security`, ninguna llamada de API lo resuelve.
+- **Branch protection / Rulesets** — bloqueados por el plan Free de GitHub
+  en repos privados (probado con ambas APIs, mismo `403`); requiere
+  decisión de upgrade de plan.
+- **Campos "Por definir" en la entrada de BESTO** (`PRODUCT_PORTFOLIO.md`):
+  Prioridad, Equipo responsable, Fecha objetivo — pendientes del triage
+  formal de `Product`.
+- **3 nomenclaturas de ciclo de vida sin unificar**: este documento (9
+  estados), `PRODUCT_LIFECYCLE.md` (7 estados) y el futuro tablero de
+  Projects (9 estados + campo Lifecycle Stage separado) describen el mismo
+  recorrido con nombres distintos — mapeadas entre sí, no reescritas.
 
 ---
-*Propuesta — pendiente de aprobación. No modifica código existente; no
-reemplaza ningún documento, los integra.*
+*Activo en `main`. Última sincronización de estado: Fase 5. No modifica
+código existente; no reemplaza ningún documento, los integra.*

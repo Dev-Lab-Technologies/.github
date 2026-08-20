@@ -47,4 +47,4 @@ Deployment → Released`. `Idea`/`Producto` corresponden a `Ideas`/`Discovery`,
 `DevOps` a `Deployment`, `Producción` a `Released`.
 
 ---
-*Estándar propuesto por `Owners`/`DevOps`, pendiente de aprobación.*
+*Estándar activo en `main`, adoptado por `Owners`/`DevOps`.*
