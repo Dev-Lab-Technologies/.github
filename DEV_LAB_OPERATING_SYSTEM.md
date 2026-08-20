@@ -151,6 +151,23 @@ La fuente viva a futuro es el tablero **DLT OS Product Lifecycle**
 del token; cuando se cree, su campo "Tipo" debe incluir `Venture` como
 cuarta opción, además de Producto / Proyecto Cliente / Investigación.
 
+## Ciclo de vida canónico (Fase 6)
+
+Los 9 estados de este documento (§ arriba, pilar Product Management /
+Portfolio Management) son la **fuente de verdad** del ciclo de vida de
+cualquier entrada del portafolio:
+
+```
+IDEA → DISCOVERY → RESEARCH → DESIGN → DEVELOPMENT →
+TESTING → STAGING → PRODUCTION → ITERATION
+```
+
+`PRODUCT_LIFECYCLE.md` (repo `documentation`) usa una nomenclatura de 7
+nombres más simple, pensada para conversación de negocio — no es una
+fuente de verdad alterna, es una **vista** de estos mismos 9 estados con un
+crosswalk explícito. Cuando se cree el tablero de GitHub Projects, su campo
+Status usa estos 9 nombres directamente (no el set de `PRODUCT_LIFECYCLE.md`).
+
 ## Qué falta para que el Operating System esté completo
 
 Actualizado en Fase 5 — lo ya resuelto (fusión de PRs de Fase 1–4, alta de
@@ -169,11 +186,12 @@ BESTO) se retiró de esta lista; solo quedan los pendientes reales de hoy:
 - **Campos "Por definir" en la entrada de BESTO** (`PRODUCT_PORTFOLIO.md`):
   Prioridad, Equipo responsable, Fecha objetivo — pendientes del triage
   formal de `Product`.
-- **3 nomenclaturas de ciclo de vida sin unificar**: este documento (9
-  estados), `PRODUCT_LIFECYCLE.md` (7 estados) y el futuro tablero de
-  Projects (9 estados + campo Lifecycle Stage separado) describen el mismo
-  recorrido con nombres distintos — mapeadas entre sí, no reescritas.
+- **Campo "Lifecycle Stage" del futuro tablero de Projects**: al crearlo,
+  usar los 9 estados canónicos de este documento como su set de valores en
+  vez del set separado especificado originalmente — evita una cuarta
+  nomenclatura antes de que llegue a existir.
 
 ---
-*Activo en `main`. Última sincronización de estado: Fase 5. No modifica
-código existente; no reemplaza ningún documento, los integra.*
+*Activo en `main`. Última sincronización de estado: Fase 6 — ciclo de vida
+declarado canónico. No modifica código existente; no reemplaza ningún
+documento, los integra.*
