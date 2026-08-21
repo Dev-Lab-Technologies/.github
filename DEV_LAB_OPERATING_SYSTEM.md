@@ -16,7 +16,7 @@ canónica; este archivo no duplica el contenido, lo **integra**.
 
 | # | Pilar | Fuente canónica | Estado |
 |---|---|---|---|
-| 1 | Governance | [`README.md`](./README.md) (este repo) — equipos y permisos | ✅ Activo |
+| 1 | Governance | [`README.md`](./README.md) (este repo) — equipos y permisos; `docs/governance/GITHUB_PROJECT_MANAGEMENT.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) — especificación del Project oficial | ✅ Activo (equipos) + 🟡 Project especificado, sin crear |
 | 2 | Product Management | `docs/strategy/PRODUCT_OPERATING_MODEL.md`, `docs/strategy/PRODUCT_CRITERIA.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | ✅ Activo en `main` |
 | 3 | Software Factory | `docs/engineering/SOFTWARE_FACTORY.md`, `docs/ENGINEERING_WORKFLOW.md` ([`documentation`](https://github.com/Dev-Lab-Technologies/documentation)) | ✅ Activo en `main` |
 | 4 | Engineering Standards | [`ARCHITECTURE_STANDARDS.md`](./ARCHITECTURE_STANDARDS.md), [`CONTRIBUTING.md`](./CONTRIBUTING.md) | ✅ Activo en `main` |
@@ -86,7 +86,9 @@ Management** es la vista de conjunto de todo lo anterior.
 ### 1. Governance
 5 equipos (`Owners` admin, `Engineering` write, `DevOps` maintain,
 `Security` triage, `Product` read), sin miembros todavía. Tu cuenta es el
-único Organization Owner. Detalle: [`README.md`](./README.md).
+único Organization Owner. Detalle: [`README.md`](./README.md). Especificación
+del futuro GitHub Project oficial (campos, reglas de uso — propuesta, sin
+crear aún): `docs/governance/GITHUB_PROJECT_MANAGEMENT.md` (repo `documentation`).
 
 ### 2. Product Management
 Cómo nace un producto, roles (Product Owner, Tech Lead, DevOps Lead,

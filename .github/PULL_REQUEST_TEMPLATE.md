@@ -38,6 +38,9 @@
       `technical-decision.md` (o ADR en `docs/architecture/adr/`).
 - [ ] Si afecta el ciclo de vida o el portafolio, `PRODUCT_PORTFOLIO.md`
       está al día.
+- [ ] Si este PR agrega un documento nuevo al DLT OS, ¿`DEV_LAB_OPERATING_SYSTEM.md`
+      necesita reflejarlo? (pilar, tabla de estado, o "Qué falta") — este
+      checklist existe porque se nos olvidó dos fases seguidas.
 
 ## Checklist general
 
