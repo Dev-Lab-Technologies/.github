@@ -38,13 +38,20 @@ Producción
 - **`innovation-lab` es la excepción de velocidad**: prototipos pueden saltar Diseño formal, pero para graduarse a `products` o `software-factory` sí deben pasar por el flujo completo.
 - **Investigación tecnológica** (`innovation-lab`) alimenta la etapa de Diseño cuando valida una alternativa técnica.
 
-## Relación con el pipeline de GitHub Projects
+## Relación con otros documentos del DLT OS
 
-Este flujo mapea 1:1 con las columnas del proyecto **Dev Lab Technology
-Pipeline**: `Ideas → Discovery → Design → Development → Testing →
-Deployment → Released`. `Idea`/`Producto` corresponden a `Ideas`/`Discovery`,
-`Diseño` a `Design`, `Engineering` a `Development`, `Testing` a `Testing`,
-`DevOps` a `Deployment`, `Producción` a `Released`.
+Este documento describe el flujo de **negocio/producto** (Idea → Producción)
+a alto nivel. La ejecución técnica diaria de las etapas `Engineering` y
+`Testing` — Issue → Branch → Pull Request → Review → Merge, convención de
+ramas, criterios de aprobación — vive en
+[`docs/ENGINEERING_WORKFLOW.md`](https://github.com/Dev-Lab-Technologies/documentation/blob/main/docs/ENGINEERING_WORKFLOW.md)
+(repo `documentation`). No son dos procesos distintos: este documento es la
+vista de producto, ese es la vista de ejecución del mismo flujo.
+
+El mapeo a estados de GitHub Projects usa los 9 estados canónicos
+declarados en `DEV_LAB_OPERATING_SYSTEM.md`, no un set de columnas propio —
+ver [`docs/governance/GITHUB_PROJECT_MANAGEMENT.md`](https://github.com/Dev-Lab-Technologies/documentation/blob/main/docs/governance/GITHUB_PROJECT_MANAGEMENT.md)
+para la especificación completa del Project oficial.
 
 ---
 *Estándar activo en `main`, adoptado por `Owners`/`DevOps`.*
