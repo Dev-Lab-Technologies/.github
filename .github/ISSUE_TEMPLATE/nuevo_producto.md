@@ -1,6 +1,6 @@
 ---
 name: Nuevo producto
-about: Dar de alta un producto o plataforma nueva para que entre al DLT OS Product Lifecycle
+about: Dar de alta un producto o plataforma nueva para que entre al Dev Lab Product Operating System
 title: "[PRODUCTO] "
 labels: product, DLT-OS
 ---
@@ -36,4 +36,4 @@ labels: product, DLT-OS
 <!-- products / software-factory / repo dedicado -->
 
 ---
-Este issue entra al proyecto **DLT OS Product Lifecycle** en el estado `IDEA`.
+Este issue entra al proyecto **Dev Lab Product Operating System** en el estado `IDEA`.

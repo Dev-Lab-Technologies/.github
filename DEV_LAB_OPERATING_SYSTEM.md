@@ -148,7 +148,7 @@ investigación y **ventures** (categoría agregada para iniciativas de alto
 riesgo/alto potencial más allá de un producto tradicional), mapeado a los
 repos existentes. **BESTO** es la primera entrada real del portafolio,
 categorizada como Producto propio. Detalle: `PRODUCT_PORTFOLIO.md`.
-La fuente viva a futuro es el tablero **DLT OS Product Lifecycle**
+La fuente viva a futuro es el tablero **Dev Lab Product Operating System**
 (GitHub Projects) — pendiente de crear, bloqueado por el scope `project`
 del token; cuando se cree, su campo "Tipo" debe incluir `Venture` como
 cuarta opción, además de Producto / Proyecto Cliente / Investigación.
@@ -175,7 +175,7 @@ Status usa estos 9 nombres directamente (no el set de `PRODUCT_LIFECYCLE.md`).
 Actualizado en Fase 5 — lo ya resuelto (fusión de PRs de Fase 1–4, alta de
 BESTO) se retiró de esta lista; solo quedan los pendientes reales de hoy:
 
-- **GitHub Project "DLT OS Product Lifecycle" + sus 7 campos personalizados
+- **GitHub Project "Dev Lab Product Operating System" + sus 7 campos personalizados
   + labels organizacionales** — bloqueados por el scope `project` del
   token (`gh auth refresh -s project`); los labels esperan expresamente a
   esto por instrucción explícita, no por límite técnico propio.
