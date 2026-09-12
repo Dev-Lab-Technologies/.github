@@ -1,164 +1,120 @@
 <div align="center">
 
-# DEV LAB TECHNOLOGIES
+# Dev Lab Technologies™
 
-### Creamos tecnología que transforma negocios.
+### Software Engineering · AI · SaaS · Automation
 
-**Software Engineering · SaaS · Artificial Intelligence · Automation**
+Construimos software, plataformas digitales y sistemas inteligentes diseñados para resolver problemas reales, escalar operaciones y crear impacto empresarial.
 
-<br />
+<br/>
 
-Technology with purpose. Products built to evolve.
+![Company](https://img.shields.io/badge/DEV%20LAB-TECHNOLOGIES-111111?style=for-the-badge&labelColor=111111&color=F15A24)
+![Location](https://img.shields.io/badge/COLOMBIA-LATAM-111111?style=for-the-badge&labelColor=2E2E2E&color=F15A24)
+![Focus](https://img.shields.io/badge/FOCUS-ENTERPRISE%20TECH-111111?style=for-the-badge&labelColor=2E2E2E&color=F15A24)
+
+<br/>
+
+![Software](https://img.shields.io/badge/SOFTWARE-ENGINEERING-111111?style=flat-square&labelColor=111111&color=F15A24)
+![AI](https://img.shields.io/badge/ARTIFICIAL-INTELLIGENCE-111111?style=flat-square&labelColor=111111&color=F15A24)
+![Cloud](https://img.shields.io/badge/CLOUD-INFRASTRUCTURE-111111?style=flat-square&labelColor=111111&color=F15A24)
+![Automation](https://img.shields.io/badge/BUSINESS-AUTOMATION-111111?style=flat-square&labelColor=111111&color=F15A24)
 
 </div>
 
 ---
 
-## About Dev Lab Technologies
+## Sobre Dev Lab Technologies
 
-**Dev Lab Technologies S.A.S.** is a technology company focused on designing, developing and operating modern software platforms and digital systems.
-
-We combine software engineering, product design, artificial intelligence, automation and business strategy to transform complex operational challenges into scalable technology.
-
-Our objective is not simply to write code. We build reliable systems designed to evolve, integrate and create measurable business impact.
-
----
-
-## What We Build
-
-### SaaS Platforms
-Cloud-based systems designed to digitalize, optimize and scale business operations.
-
-### Artificial Intelligence
-Intelligent systems for analysis, recommendations, automation and decision support.
-
-### Business Automation
-Technology that connects workflows, data and processes to reduce repetitive manual work.
-
-### Custom Software
-Digital products and internal platforms designed around specific operational and commercial requirements.
-
-### Integrations
-APIs, payment infrastructure, external services and business systems connected through reliable integration layers.
-
-### Data & Analytics
-Systems that transform operational information into actionable business intelligence.
+- Desarrollamos **software y plataformas tecnológicas** orientadas a negocios y operaciones reales.
+- Diseñamos sistemas con enfoque en **arquitectura, escalabilidad, seguridad y mantenibilidad**.
+- Integramos **frontend, backend, bases de datos, APIs, automatización e inteligencia artificial**.
+- Trabajamos con una filosofía de **producto + ingeniería + negocio**.
+- Nuestros productos comerciales, propiedad intelectual y líneas de investigación permanecen en **repositorios privados**.
 
 ---
 
-## Engineering
+## Áreas de ingeniería
 
-Our engineering ecosystem includes technologies and practices such as:
-
-<p align="center">
-
-`TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `REST APIs`
-
-`Prisma ORM` · `SQL` · `MySQL` · `Docker` · `Git` · `GitHub` · `CI/CD`
-
-`Cloud Infrastructure` · `Testing` · `Security` · `Observability`
-
-</p>
-
----
-
-## Engineering Principles
-
-### Architecture First
-We design systems with scalability, maintainability, security and long-term evolution in mind.
-
-### Product Thinking
-Technology begins with understanding the business problem, the user and the operational context.
-
-### Security by Design
-Authentication, authorization, data isolation, resilience and safe defaults are considered from the beginning.
-
-### Design Systems
-Interfaces are built around reusable components, design tokens and consistent interaction patterns.
-
-### Quality Engineering
-Testing, technical audits, code review and regression protection are part of the development lifecycle.
-
-### Continuous Evolution
-Software is treated as a living system that is monitored, improved and expanded continuously.
-
-### Automation
-Whenever a repetitive process can be automated safely and reliably, we look for a technological solution.
+| Capacidad | Enfoque |
+| --- | --- |
+| **Software Architecture** | Sistemas modulares, escalables y mantenibles |
+| **Full Stack Engineering** | Experiencias web, servicios, APIs y lógica de negocio |
+| **SaaS Platforms** | Plataformas multiusuario y productos digitales de largo plazo |
+| **Artificial Intelligence** | Análisis, asistencia, automatización y soporte a decisiones |
+| **Business Automation** | Flujos conectados, reducción de tareas manuales e integraciones |
+| **Data & Analytics** | Transformación de datos operativos en información accionable |
+| **Cloud & DevOps** | CI/CD, contenedores, despliegue, monitoreo y resiliencia |
+| **Design Systems** | Interfaces coherentes, tokens, componentes y experiencia de producto |
 
 ---
 
-## How We Build
+## Core Stack
 
-```text
-Research
-   ↓
-Product Strategy
-   ↓
-Architecture
-   ↓
-Design System
-   ↓
-Engineering
-   ↓
-Testing
-   ↓
-Security
-   ↓
-Deployment
-   ↓
-Monitoring
-   ↓
-Continuous Evolution
-```
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=white)
+![React](https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+![Prisma](https://img.shields.io/badge/Prisma-111111?style=for-the-badge&logo=prisma&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-F15A24?style=for-the-badge&logo=githubactions&logoColor=white)
+
+</div>
 
 ---
 
-## Areas of Expertise
+## Cómo construimos
 
-- Software Architecture
-- Full Stack Engineering
-- SaaS Development
-- Artificial Intelligence
-- Business Automation
-- API Development
-- Database Design
-- Product Engineering
-- User Experience Engineering
-- Design Systems
-- Testing & Quality Assurance
-- Security Engineering
-- Cloud Infrastructure
-- DevOps & CI/CD
-- Business Intelligence
+<div align="center">
+
+**Research** → **Product Strategy** → **Architecture** → **Design System** → **Engineering** → **Testing** → **Security** → **Deployment** → **Monitoring** → **Continuous Evolution**
+
+</div>
+
+---
+
+## Principios de ingeniería
+
+**Architecture First**  
+Diseñamos pensando en evolución, mantenibilidad y crecimiento antes de escalar complejidad.
+
+**Product Thinking**  
+La tecnología parte del problema de negocio, del usuario y del contexto operativo.
+
+**Security by Design**  
+Autenticación, autorización, aislamiento de datos y resiliencia forman parte del producto desde el inicio.
+
+**Quality Engineering**  
+Pruebas, auditorías técnicas, revisión de código y protección contra regresiones son parte del ciclo de desarrollo.
+
+**Continuous Evolution**  
+Tratamos el software como un sistema vivo que debe medirse, corregirse, optimizarse y evolucionar.
 
 ---
 
 ## Private Product Development
 
-Most of our commercial products, proprietary platforms, internal systems and research initiatives are developed in **private repositories**.
+Nuestra tecnología comercial, productos propietarios, investigación interna y sistemas estratégicos se desarrollan principalmente en **repositorios privados**.
 
-Public repositories are used selectively for engineering resources, technical documentation, reusable tools, libraries, research and open-source initiatives.
-
-This separation allows us to share engineering knowledge while protecting proprietary technology and commercial intellectual property.
-
----
-
-## Our Philosophy
-
-> Technology should create operational clarity, measurable impact and stronger businesses.
-
-We create systems designed to solve real problems, improve operations and support long-term growth.
-
-### Ideas + código = impacto.
+El contenido público de esta organización está destinado únicamente a recursos técnicos, documentación, herramientas reutilizables, estándares de ingeniería e iniciativas seleccionadas.
 
 ---
 
 <div align="center">
 
-## Dev Lab Technologies S.A.S.
+### Creamos tecnología que transforma negocios.
 
-**Software · AI · SaaS · Automation · Engineering**
+**Ideas + código = impacto.**
 
-*Technology with purpose.*
+<br/>
+
+![Technology](https://img.shields.io/badge/TECHNOLOGY-WITH%20PURPOSE-F15A24?style=for-the-badge&labelColor=111111)
+
+**Dev Lab Technologies S.A.S. · Colombia**
 
 </div>
