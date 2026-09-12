@@ -4,8 +4,9 @@
 
 ### Software Engineering · AI · SaaS · Automation
 
-Construimos software, plataformas digitales y sistemas inteligentes diseñados para resolver problemas reales, escalar operaciones y crear impacto empresarial.
+We build reliable digital products, platforms and intelligent systems for modern businesses.
 
+Building technology beyond borders.
 <br/>
 
 ![Company](https://img.shields.io/badge/DEV%20LAB-TECHNOLOGIES-111111?style=for-the-badge&labelColor=111111&color=F15A24)
