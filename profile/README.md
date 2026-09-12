@@ -1,7 +1,7 @@
 
-<div align="center">
+  ![Dev Lab Technologies premium tech banner](./tech-banner-premium.png)
+  <div align="center">
 
-  ![Dev Lab Technologies tech banner](./exec-e0564a3d-8f76-4a39-8964-a17bbe436f54.png)
 # Dev Lab Technologies™
 
 ### Software Engineering · AI · SaaS · Automation
