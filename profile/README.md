@@ -119,7 +119,9 @@ El contenido público de esta organización está destinado únicamente a recurs
 ![Technology](https://img.shields.io/badge/TECHNOLOGY-WITH%20PURPOSE-F15A24?style=for-the-badge&labelColor=111111)
 
 **Dev Lab Technologies S.A.S. · Colombia**
+
 **DLT Colombia · Neiva**
+
 **DLT España · Barcelona**
 
 </div>
